@@ -209,8 +209,9 @@ align-items: center;
 }
 
 button {
+padding: 5px 10px;
 margin-left: 20px;
-font-size: 23px;
+font-size: 20px;
 background-color: red;
 color: white;
 border-radius: 10px;
