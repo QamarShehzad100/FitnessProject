@@ -222,9 +222,14 @@ button:hover {
 border: 2px solid white;
 }
 
-h2 {
+.training-sec h3 {
 margin-right: 30px;
+flex-direction: row;
+
 }
+h2 {
+    margin-right: 30px;    
+    }
 
 .box-content {
 margin-left: 1rem;
