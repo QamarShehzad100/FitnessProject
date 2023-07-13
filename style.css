@@ -160,6 +160,14 @@ font-weight: bold;
 }
 
 /* Shop section */
+.shop-section {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: lightgray;
+min-width: 820px;
+min-height: 100px;
+}
 .training-sec {
 display: flex;
 line-height: 30px;
