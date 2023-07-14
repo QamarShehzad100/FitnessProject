@@ -226,7 +226,11 @@ border: 2px solid white;
 .training-sec h3 {
 margin-right: 30px;
 flex-direction: row;
-
+}
+h3 {
+    margin-left: 22px;
+    font-size: 2rem;
+    margin-bottom: 5px;
 }
 h2 {
     margin-right: 30px;    
