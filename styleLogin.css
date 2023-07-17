@@ -180,27 +180,27 @@
     }
     
     .pic-1 {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-right: 40px;
-    background-image: url(img/insta.jpeg);
+    background-image: url(img/instagram.png);
     background-size: cover;
     border-radius: 50px;
     }
     
     .pic-2 {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-right: 40px;
-    background-image: url(img/utube.jpeg);
+    background-image: url(img/youtube.png);
     background-size: cover;
     border-radius: 50px;
     }
     
     .pic-3 {
-    height: 100px;
-    width: 100px;
-    background-image: url(img/twitter.jpeg);
+    height: 80px;
+    width: 80px;
+    background-image: url(img/twitter.png);
     background-size: cover;
     border-radius: 50px;
     }
