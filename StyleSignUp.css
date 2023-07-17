@@ -205,8 +205,8 @@
     border-radius: 50px;
     }
     
-    /* Login page style */
-    .Login-container {
+    /* signup page style */
+    .signup-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -220,7 +220,7 @@
         width: 100%;
         background-size: cover;
         }
-    .login-box {
+    .signup-box {
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -231,14 +231,14 @@
         border-radius: 15px;
         box-shadow: 1px 1px 1px 1px gray;
     }
-    .login-box input {
+    .signup-box input {
         width:300px;
         height: 35px;
         border: solid gray 0.07px;
         border-radius: 10px;
         padding-left: 15px;
     }
-    .login-box button {
+    .signup-box button {
         width:200px;
         height: 50px;
         border-radius: 20px;
@@ -251,7 +251,7 @@
         flex-direction: column;
     }
     .btnContainer button {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .btnContainer button:hover {
@@ -260,9 +260,8 @@
     }
 
     .btnSignup {
-        background-color: #ffffff;
-        border: black solid 1px;
-        color: black;
+        background-color: red;
+        color: white;
     }
 
     button a {
@@ -277,4 +276,9 @@
     .btnSignup a:hover {
         text-decoration: none;
         color: white;
+    }
+    .btnSignin {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+        color: black;
     }
