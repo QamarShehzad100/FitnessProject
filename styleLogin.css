@@ -90,94 +90,6 @@
     color: pink;
     }
     
-    /* Section Parts */
-    /* Part 1 */
-    .sec-1 {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    height: 80px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
-    }
-    
-    /* Part 2 */
-    .sec-2 {
-    display: flex;
-    flex-wrap: wrap;
-    }
-    
-    .sec-2-a {
-    height: 450px;
-    width: 45%;
-    background-color: red;
-    background-image: url(img/womanBiceps.jpg);
-    background-size: cover;
-    }
-    
-    .sec-2-b {
-    height: 450px;
-    width: 55%;
-    background-color: lightgray;
-    }
-    
-    .sec-2-b strong {
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-    }
-    
-    .sec-2-b p {
-    font-size: 1.5rem;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
-    
-    /* Part 3 */
-    .sec-3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 80px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
-    }
-    
-    /* Shop section */
-    .shop-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: lightgray;
-    min-width: 820px;
-    min-height: 100px;
-    }
-    .training-sec {
-    display: flex;
-    line-height: 30px;
-    flex-direction: row;
-    align-items: center;
-    background-color: lightgray;
-    min-width: 820px;
-    min-height: 100px;
-    }
-    .training-sec p {
-    margin-left: 25px;
-    }
-    
-    .training-sec h3 {
-    display: block;
-    }
-    
     .box {
     height: 350px;
     width: 23%;
@@ -203,7 +115,6 @@
     
     button {
     padding: 5px 10px;
-    margin-left: 20px;
     font-size: 20px;
     background-color: red;
     color: white;
@@ -311,7 +222,8 @@
         }
     .login-box {
         display: flex;
-        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
         flex-direction: column;
         width:400px;
         min-height: 500px;
@@ -321,9 +233,39 @@
     }
     .login-box input {
         width:300px;
-        height: 30px;
+        height: 35px;
+        border: solid gray 0.07px;
+        border-radius: 10px;
+        padding-left: 15px;
     }
     .login-box button {
-        width:300px;
-        height: 30px;
+        width:200px;
+        height: 50px;
+        border-radius: 20px;
+    }
+
+    .login-box button .btnSignup {
+    
+        background-color: none;
+        color: gray;
+    }
+
+    .btnContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btnContainer button {
+        margin-bottom: 30px;
+    }
+
+    .btnContainer button:hover {
+        background-color: green;
+        color: white;
+    }
+
+    .btnSignup {
+        background-color: #F5F5F5;
+        border: black solid 1px;
+        color: black;
     }
