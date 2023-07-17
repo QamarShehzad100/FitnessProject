@@ -300,3 +300,10 @@ background-image: url(img/twitter.jpeg);
 background-size: cover;
 border-radius: 50px;
 }
+
+/* Login page style */
+.Login-container {
+    width: 100%;
+    min-height: 700px;
+    background-color: aliceblue;
+}
