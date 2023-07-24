@@ -82,6 +82,9 @@
     border-radius: 60px;
     size: 1.3rem;
     }
+    .navbar a:hover {
+        color: orange;
+        }
     
     .btn-1:hover {
     border: 2px solid red;

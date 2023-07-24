@@ -36,14 +36,16 @@
     </header>
     <div class="signup-container">
 <div class="signup-box">
+    <form class="formSignup" id="formSignup">
     <h3>Sign Up</h3>
-    <input type="text" name="name" class="namelInput" placeholder="Name" >
-    <input type="password" name="password" class="passwordInput" placeholder="Password">
-    <input type="text" name="email" class="emailInput" placeholder="Email" >
-    <input type="text" name="address" class="addressInput" placeholder="Address">
+    <input type="text" id="namelInput" name="name" class="namelInput" placeholder="Name" >
+    <input type="password" id="passwordInput" name="password" class="passwordInput" placeholder="Password">
+    <input type="text" id="emailInput" name="email" class="emailInput" placeholder="Email" >
+    <input type="text" id="addressInput" name="address" class="addressInput" placeholder="Address">
     <div class="btnContainer">
-        <a href="#"><button class="btnSignup">Sign up</button></a>
-        <a href="Login.html"><button type="submit" class="btnSignin">Login</button></a>
+        <a href="#"><button type="submit" class="btnSignup">Sign up</button></a>
+        <a href="Login.html"><button class="btnSignin">Login</button></a>
+    </form>
 </div>
 </div>
     </div>
@@ -63,5 +65,7 @@
             </div>
         </div>
     </footer>
+    <script type="text/JavaScript" src="SignupScript.js">
+    </script>
 </body>
 </html>
