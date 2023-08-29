@@ -13,14 +13,14 @@ submitButton.addEventListener("click", function (event) {
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  if (!emailRegex.test(userEmail)) {
-    alert("Invalid email address");
-    return; // Prevent form submission if email is invalid
-  }
 
   if (!userName || !userEmail || !userAddress || !userPassword) {
     alert("Please fill all fields");
     return; // Prevent form submission if any field is missing
+  }
+  if (!emailRegex.test(userEmail)) {
+    alert("Invalid email address");
+    return; // Prevent form submission if email is invalid
   }
 
   // Form data is valid, perform the necessary actions
@@ -29,3 +29,6 @@ submitButton.addEventListener("click", function (event) {
   alert("Signup Successful");
   console.log(formDataContainer);
 });
+
+// exporting this to use in Login.html
+// export default formDataContainer;

@@ -223,7 +223,7 @@
         width: 100%;
         background-size: cover;
         }
-    .login-box {
+    .signinForm {
         display: flex;
         align-items: center;
         justify-content: space-around;
