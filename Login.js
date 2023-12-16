@@ -1,3 +1,11 @@
+
+// LOCAL STORAGE METHODS
+
+// 1-localStorage.setItem()
+// 2-localStorage.getItem()
+// 3-localStorage.clear()
+// 4-localStorage.removeItem()
+
 const formData = document.getElementById('signinForm');
 
 formData.addEventListener('submit', (e)=>{
@@ -6,8 +14,8 @@ formData.addEventListener('submit', (e)=>{
 
     // adding above form values to localStorage
     localStorage.setItem('username',userName);
-    localStorage.setItem('password', userPassword);
-    alert("Your details are saved to localStorage")
+    localStorage.setItem('password',userPassword);
+    alert("Your details are saved to localStorage");
     console.log(userName);
 })
 
