@@ -158,6 +158,7 @@
     .info {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     }
     
     .info-1 {
@@ -177,14 +178,14 @@
     
     .pic {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
     padding-left: 500px;
     }
     
     .pic-1 {
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     margin-right: 40px;
     background-image: url(img/instagram.png);
     background-size: cover;
@@ -192,8 +193,8 @@
     }
     
     .pic-2 {
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     margin-right: 40px;
     background-image: url(img/youtube.png);
     background-size: cover;
@@ -201,8 +202,8 @@
     }
     
     .pic-3 {
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     background-image: url(img/twitter.png);
     background-size: cover;
     border-radius: 50px;

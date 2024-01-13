@@ -1,320 +1,324 @@
 * {
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-border: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
 }
 
 /* header */
 .navbar {
-height: 80px;
-background-color: black;
-color: white;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar a:hover {
-color: orange;
+  color: orange;
 }
 
 /* Box 1 */
 .nav-logo {
-height: 50px;
-width: 100px;
+  height: 50px;
+  width: 100px;
 }
 
 .logo {
-background-image: url(img/images.png);
-height: 50px;
-width: 100%;
-background-size: cover;
-border-radius: 100px;
-margin-left: 40px;
+  background-image: url(img/images.png);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 100px;
+  margin-left: 40px;
 }
 
 /* Box 2 */
 .menu {
-margin-right: 20px;
+  margin-right: 20px;
 }
 
 .menu a {
-text-decoration: none;
-color: white;
-font-weight: bold;
-margin-right: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 50px;
 }
 
 /* Box 3 */
 .sign-1 {
-font-size: 25px;
-padding-right: 30px;
+  font-size: 25px;
+  padding-right: 30px;
 }
 
 .sign-2 {
-font-size: 25px;
-padding-right: 50px;
+  font-size: 25px;
+  padding-right: 50px;
 }
 
 /* Box mix */
 .mix {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Box Split */
 .split {
-display: flex;
-flex-wrap: wrap;
-padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
 }
 
 /* Navbar header */
 .header {
-height: 550px;
-width: 100%;
-background-image: url(img/banner.jpg);
-background-size: cover;
+  height: 550px;
+  width: 100%;
+  background-image: url(img/banner.jpg);
+  background-size: cover;
 }
 
 .btn {
-display: flex;
-justify-content: center;
-padding-top: 420px;
+  display: flex;
+  justify-content: center;
+  padding-top: 420px;
 }
 
 .btn-1 {
-background-color: white;
-color: black;
-block-size: 70px;
-inline-size: 180px;
-border-radius: 60px;
-size: 1.3rem;
+  background-color: white;
+  color: black;
+  block-size: 70px;
+  inline-size: 180px;
+  border-radius: 60px;
+  size: 1.3rem;
 }
 
 .btn-1:hover {
-border: 2px solid red;
+  border: 2px solid red;
 }
 .menu a :hover {
-color: pink;
+  color: pink;
 }
 
 /* Section Parts */
 /* Part 1 */
 .sec-1 {
-margin-top: 30px;
-margin-bottom: 20px;
-height: 80px;
-background-color: black;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 2rem;
-font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* Part 2 */
 .sec-2 {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .sec-2-a {
-height: 450px;
-width: 45%;
-background-color: red;
-background-image: url(img/womanBiceps.jpg);
-background-size: cover;
+  height: 450px;
+  width: 45%;
+  background-color: red;
+  background-image: url(img/womanBiceps.jpg);
+  background-size: cover;
 }
 
 .sec-2-b {
-height: 450px;
-width: 55%;
-background-color: lightgray;
+  height: 450px;
+  width: 55%;
+  background-color: lightgray;
 }
 
 .sec-2-b strong {
-font-size: 2rem;
-display: flex;
-justify-content: center;
-margin-top: 70px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 .sec-2-b p {
-font-size: 1.5rem;
-padding-left: 15px;
-padding-right: 15px;
+  font-size: 1.5rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Part 3 */
 .sec-3 {
-margin-top: 20px;
-margin-bottom: 20px;
-height: 80px;
-background-color: black;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 2rem;
-font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* Shop section */
 .shop-section {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-background-color: lightgray;
-min-width: 820px;
-min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lightgray;
+  min-width: 820px;
+  min-height: 100px;
 }
 .training-sec {
-display: flex;
-line-height: 30px;
-flex-direction: row;
-align-items: center;
-background-color: lightgray;
-min-width: 820px;
-min-height: 100px;
+  display: flex;
+  line-height: 30px;
+  flex-direction: row;
+  align-items: center;
+  background-color: lightgray;
+  min-width: 820px;
+  min-height: 100px;
 }
 .training-sec p {
-margin-left: 25px;
+  margin-left: 25px;
 }
 
 .training-sec h3 {
-display: block;
+  display: block;
 }
 
 .box {
-height: 350px;
-width: 23%;
-padding: 20px 0px 15px;
-margin-top: 15px;
+  height: 350px;
+  width: 23%;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
 }
 
 .box-img {
-    display: flex;
-height: 300px;
-background-size: cover;
+  display: flex;
+  height: 300px;
+  background-size: cover;
+  align-items: flex-end;
 }
 .text {
-height: 50px;
-background-color: black;
-color: white;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 button {
     padding: 5px 10px;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 12px;
     background-color: #fe11c7;
     color: white;
     outline: none;
     border-style: none;
 }
 .product-name {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    height: 38px;
-    align-items: flex-end;
-    font-weight: bolder;
-    margin: 0 0 3px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 27px;
+  font-weight: bolder;
+  width: 100%;
+  padding: 3px 0 0 0;
+  font-size: 12px;
 }
 
 button:hover {
-border: 2px solid white;
-background-color: green;
-color: white;
+  border: 2px solid white;
+  background-color: green;
+  color: white;
 }
 
 .training-sec h3 {
-margin-right: 30px;
-flex-direction: row;
+  margin-right: 30px;
+  flex-direction: row;
 }
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 h2 {
-    margin-right: 30px;    
-    }
+    margin-right: 22px;
+    font-size: 18px;
+}
 
 .box-content {
-margin-left: 1rem;
-margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* Footer */
 footer {
-margin-top: 30px;
-height: 170px;
-background-color: black;
+  margin-top: 30px;
+  height: 170px;
+  background-color: black;
 }
 
 .info {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .info-1 {
-color: white;
-padding-top: 25px;
-padding-left: 100px;
+  color: white;
+  padding-top: 25px;
+  padding-left: 100px;
 }
 
 .info strong {
-font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .info p {
-color: grey;
-padding-top: 20px;
+  color: grey;
+  padding-top: 20px;
 }
 
 .pic {
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-padding-left: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 500px;
 }
 
 .pic-1 {
-height: 80px;
-width: 80px;
-margin-right: 40px;
-background-image: url(img/instagram.png);
-background-size: cover;
-border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  margin-right: 40px;
+  background-image: url(img/instagram.png);
+  background-size: cover;
+  border-radius: 50px;
 }
 
 .pic-2 {
-height: 80px;
-width: 80px;
-margin-right: 40px;
-background-image: url(img/youtube.png);
-background-size: cover;
-border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  margin-right: 40px;
+  background-image: url(img/youtube.png);
+  background-size: cover;
+  border-radius: 50px;
 }
 
 .pic-3 {
-height: 80px;
-width: 80px;
-background-image: url(img/twitter.png);
-background-size: cover;
-border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  background-image: url(img/twitter.png);
+  background-size: cover;
+  border-radius: 50px;
 }
 
 /* Login page style */
 .Login-container {
-    width: 100%;
-    min-height: 700px;
-    background-color: aliceblue;
+  width: 100%;
+  min-height: 700px;
+  background-color: aliceblue;
 }
